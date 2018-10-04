@@ -20,10 +20,11 @@ go
 
 ## Commands
 
-| Command                 | Purpose                                          |
-| ----------------------- | ------------------------------------------------ |
-| `go version`            | Lists the version of Go installed                |
-| `go env`                | List all Go env vars                             |
-| `go get {package}`      | Installs the specified package                   |
-| `go run {path/file.go}` | Executes the Go file                             |
-| `go install`            | Compiles and installs the project to $GOPATH/bin |
+| Command                 | Purpose                                             |
+| ----------------------- | --------------------------------------------------- |
+| `go version`            | Lists the version of Go installed                   |
+| `go env`                | List all Go env vars                                |
+| `go get {package}`      | Installs the specified package                      |
+| `go run {path/file.go}` | Executes the Go file                                |
+| `go build`              | Compiles the project to an executable               |
+| `go install`            | Compiles and installs the executable to $GOPATH/bin |
